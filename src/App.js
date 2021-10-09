@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>{state}</p>
-        <button onClick={() => setState((state) => state + 1)}>aumentar</button>
+        <button onClick={() => setState((state) => state + 1)}>add</button>
         <a
           className="App-link"
           href="https://reactjs.org"
